@@ -1,0 +1,93 @@
+Reto Intermedio — Plataforma Educativa Inteligente
+📘 Contexto
+
+Una empresa tecnológica está desarrollando una plataforma de educación online donde miles de estudiantes se inscriben a diferentes cursos digitales.
+
+La plataforma necesita generar análisis automáticos sobre estudiantes, cursos y comportamiento de aprendizaje utilizando programación funcional con Streams API en Java.
+
+Tu misión como desarrollador backend es modelar el sistema aplicando Programación Orientada a Objetos (POO) y luego construir consultas eficientes usando Streams, evitando ciclos tradicionales (for, while).
+
+
+
+🎯 Objetivo del Reto
+
+Diseñar un pequeño sistema que permita:
+Gestionar estudiantes y cursos.
+Analizar información académica.
+Generar métricas de negocio.
+Obtener reportes dinámicos usando Streams.
+
+
+🧩 Requerimientos del Dominio
+👨‍🎓 Estudiantes
+
+Cada estudiante tiene:
+
+Nombre
+Edad
+Ciudad
+Lista de cursos inscritos
+Fecha de registro en la plataforma
+
+
+📚 Cursos
+
+Cada curso posee:
+Nombre del curso
+Categoría (Programación, Diseño, Data Science, etc.)
+Duración en horas
+Precio
+Nivel (Básico, Intermedio, Avanzado)
+Calificación promedio del curso
+
+
+
+⚙️ Lo que debe permitir el sistema
+
+Usando Streams API, la plataforma debe poder responder preguntas como:
+
+🔎 Consultas sobre estudiantes
+¿Qué estudiantes cumplen cierta condición?
+¿Quiénes son los más activos?
+¿Quién ha invertido más dinero en formación?
+¿Qué estudiantes pertenecen a cierta ciudad?
+
+
+🔎 Consultas sobre cursos
+Cursos únicos existentes en la plataforma.
+Cursos más costosos.
+Cursos mejor calificados.
+Promedios por categoría o nivel.
+
+
+📊 Reportes de negocio
+Inversión total por estudiante.
+Categoría más popular.
+Promedio de precios por categoría.
+Ranking de estudiantes según actividad o inversión.
+Estadísticas generales del sistema.
+
+
+🚫 Restricciones Importantes
+❌ No usar ciclos tradicionales (for, while).
+❌ No usar variables auxiliares innecesarias.
+✅ Priorizar Streams API.
+✅ Aplicar encapsulamiento POO.
+✅ Usar Optional, Comparator, Collectors.
+
+
+🧠 Lo que se evalúa realmente
+Modelado correcto de clases.
+Uso adecuado de map, filter, flatMap.
+Pensamiento funcional.
+Separación de responsabilidades.
+Legibilidad del código.
+Uso profesional de Streams.
+
+
+🔥 Desafío Extra (Nivel Pro)
+Imagina que el CEO quiere que mañana el sistema pueda escalar a millones de usuarios.
+Pregúntate:
+¿Dónde debería vivir la lógica?
+¿Las entidades tienen comportamiento o solo datos?
+¿Estoy reutilizando métodos o repitiendo Streams?
